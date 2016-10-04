@@ -1,0 +1,331 @@
+body {
+	color: #777777;
+	background-image: url("../images/mooning.png");
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.main {
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+.main h1 {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+.footer {
+	background-color: #666666;
+}
+
+.heading-font {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.other-fonts {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar {
+	background-color: white;
+	font-height: 40px;
+	width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	width: 150px;
+	margin-left: 120px;
+}
+
+.smallnav {
+	box-sizing: border-box;
+	width: 310px;
+	height: 60px;
+	margin-left: 830px;
+	padding: 20px;
+	position: relative;
+	bottom: 60px;
+	font-size: 15px;
+}
+
+.smallnav a {
+	text-decoration: none;
+}
+
+.smallnav .about {
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+}
+
+.smallnav .portfolio {
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+}
+
+.smallnav .contact {
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+}
+
+.page-header {
+	padding: 20px;
+	color: #4aaaa5;
+	background-color: white;
+}
+
+
+.maincontent {
+	clear: both;
+	box-sizing: border-box;
+	background-color: white;
+	width: 650px;
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 120px;
+	padding: 20px;
+
+}
+
+.portfolio-inset {
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 10px;
+	bottom: 70px;
+	width: 180px;
+	position: relative;
+}
+
+/*.portfolio {
+	position: relative;
+	left: 600px;
+	bottom: 55px;
+}*/
+
+/*.contact {
+	position: relative;
+	left: 600px;
+	bottom: 50px;
+}*/
+
+.portfolio-right {
+	position: relative;
+	left: 230px;
+	display: inline;
+	top: -240px;
+}
+
+.portfolio-new-line {
+	clear: both;
+}
+
+/* .about {
+	position: relative;
+	bottom: 38px;
+	left: 500px;
+} */
+
+
+
+.jeffimage {
+	float: left;
+	width: 200px;
+	margin: 20px;
+}
+
+.maincontent p {
+	padding: 0px;
+	margin: 20px;
+
+}
+
+.maincontent ul {
+	margin-left: 250px;
+}
+
+.maincontent h1 {
+	font-size: 20px;
+}
+
+.h_line {
+	width: 95%;
+	height: 1px;
+	background: gray;
+	margin-left: 20px;
+}
+
+.aside-icons .h_line {
+	width: 85%;
+}
+
+.portfolio-items-pictures {
+	margin: 40px;
+	overflow: auto;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.aside-icons {
+	float: right;
+	padding: 20px;
+	box-sizing: browser-box;
+	width: 270px;
+	background-color: #fff;
+	margin: 40px;
+	margin-top: 80px;
+
+}
+
+.aside-icons h3 {
+	font-size: 20px;
+}
+
+.aside-icons img {
+	width: 50px;
+	margin: 20px 20px;
+	float: left;
+}
+
+.fixed-footer {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: #666666;
+	text-align: center;
+	bottom: 0px;
+	color: #fff;
+	padding: auto;
+	font-size: 10px;
+}
+
+.fixed-footer .footer-line {
+	width: 100%;
+	height: 5px;
+	background-color: #4aaaa5;
+}
+
+.fixed-footer h6 {
+	padding-top: 25px;
+}
+
+.maincontent form {
+	margin: 20px;
+}
+
+.maincontent form .field {
+	margin: 10px auto;
+	width: 100%;
+}
+
+.maincontent form .message_field {
+	height: 200px;
+}
+
+.maincontent form .btn {
+	background-color: #4aaaa5;
+	color: white;
+	font-size:15px;
+	padding: 10px 20px 10px 20px;
+}
+
+.portfolio-a {
+	float: left;
+	margin: auto;
+}
+
+.portfolio-b {
+	float: right;
+	margin-left: 40px;
+}
+
+.portfolio-c {
+	margin-top: 0px;
+	float: left;
+}
+
+.portfolio-d {
+	margin-top: 0px;
+	float: right;
+	margin-left: 40px;
+}
+
+.portfolio-e {
+	margin-top: 0px;
+	float: left;
+}
+
+.portfolio-f {
+	margin-top: 0px;
+	float: right;
+	margin-left: 40px;
+}
+
+/* 
+  =====================================
+  Media Queries
+  =====================================
+*/
+
+  /* ====== 960px ====== */
+
+@media screen and (max-width: 960px) {
+
+}
+  /* ====== 768px ====== */
+
+@media screen and (max-width: 768px) {
+
+}
+
+  /* ====== 640px ====== */
+
+@media screen and (max-width: 640px) {
+	.navbar .logo {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.navbar .smallnav {
+		margin-top: 200px;
+		width: 100%;
+		float: none;
+	}
+
+	.maincontent {
+		width: 80%;
+		margin: 100px 10%;
+		margin-bottom: 0px;
+	}
+
+	.asideicons {
+		float: none;
+		width: 80%;
+		margin: 0 10%;
+		margin-top: 0px;
+
+	}
+	
+	.jeffimage {
+		width: 70%;
+		align: center;
+		margin: 2em 15%;
+	}
+
+}
