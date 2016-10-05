@@ -300,32 +300,99 @@ h1 {
 	.navbar .logo {
 		width: 100%;
 		margin-left: 0;
+		line-height: 30px;
+		font-size: 20px;
 	}
 	
 	.navbar .smallnav {
-		margin-top: 200px;
+		margin-top: 50px;
 		width: 100%;
-		float: none;
+		float: right;
+		background-color: #FFFFFF;
+	}
+
+	.smallnav .about {
+		width: 30%;
+		margin: 1.5%;
+		margin-left: 1.5%;
+		float: left;
+		text-align: center;
+	}	
+
+	.smallnav .portfolio {
+		width: 30%;
+		margin: 1.5%;
+		margin-left: 1.5%;
+		float: left;
+		text-align: center;
+	}	
+
+	.smallnav .contact {
+		width: 30%;
+		margin: 1.5%;
+		margin-left: 1.5%;
+		float: left;
+		text-align: center;
 	}
 
 	.maincontent {
 		width: 80%;
 		margin: 100px 10%;
-		margin-bottom: 0px;
+		margin-bottom: 20px;
+		margin-top: 160px;
 	}
 
-	.asideicons {
-		float: none;
-		width: 80%;
-		margin: 0 10%;
-		margin-top: 0px;
+	.maincontent h1 {
+		font-size: 1.8em;
+	}
 
+	.aside-icons {
+		clear: both;
+		float: none;
+		width: inherit;
+		height: 140px;
+		margin-top: 100px;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 100px;
+	}
+
+	.aside-icons .h_line {
+		width: 90%;
 	}
 	
 	.jeffimage {
-		width: 70%;
+		width: 80%;
 		align: center;
-		margin: 2em 15%;
+		margin: 2em 10%;
 	}
 
+	.h_line {
+		height: 2px;
+	}
+
+	.maincontent ul {
+		margin-left: 25%;
+	}
+
+	.portfolio-a, 
+	.portfolio-b,
+	.portfolio-c,
+	.portfolio-d,
+	.portfolio-e,
+	.portfolio-f {
+		clear: both;
+		float: none;
+		margin: auto;
+	}
+
+	.portfolio-b {
+		clear: both;
+		float: none;
+		margin: auto;
+	}
+
+	.portfolio-inset {
+		z-index: 0;
+	}
 }
