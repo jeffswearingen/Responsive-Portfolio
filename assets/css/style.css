@@ -416,6 +416,10 @@ h1 {
   /* ====== 640px ====== */
 
 @media screen and (max-width: 640px) {
+	.navbar {
+		z-index: 100;
+	}
+
 	.navbar .logo {
 		width: 100%;
 		margin-left: 0;
@@ -428,6 +432,7 @@ h1 {
 		width: 100%;
 		float: right;
 		background-color: #FFFFFF;
+		z-index: ;
 	}
 
 	.smallnav .about {
@@ -436,6 +441,7 @@ h1 {
 		margin-left: 1.5%;
 		float: left;
 		text-align: center;
+
 	}	
 
 	.smallnav .portfolio {
@@ -518,6 +524,5 @@ h1 {
 	.portfolio-inset {
 		width: 93.5%;
 		margin: 0;
-		z-index: 0;
 	}
 }
