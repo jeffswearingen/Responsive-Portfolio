@@ -452,7 +452,7 @@ h1 {
 	}
 
 	.navbar .logo {
-		margin-left: 2%;
+		margin-left: 5%;
 	/*	font-size: 1.25em; */
 		width: 25%;
 	}
@@ -464,6 +464,13 @@ h1 {
 		float: right;
 		font-size: 1em;
 
+
+	}
+	.icon_box {
+		margin-left: 10%;
+		padding-left: 0%;
+	/*	border: 1px solid red; */
+		width: 69%;
 	}
 	.smallnav .about {
 		width: 30%;
@@ -518,7 +525,7 @@ h1 {
 	}
 
 	.icon_box {
-		padding-left: 15%;
+		padding-left: 5%;
 		padding-right: auto;
 		width: 100%;
 	}
@@ -573,6 +580,12 @@ h1 {
 		margin-left: 1.5%;
 		float: left;
 		text-align: center;
+	}
+
+	.icon_box {
+		padding-left: 0%;
+		padding-right: auto;
+		width: 100%;
 	}
 
 	.maincontent {
