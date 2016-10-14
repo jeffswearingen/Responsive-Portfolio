@@ -8,6 +8,14 @@ h1 {
 	color: white;
 }
 
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+
 .main {
 	background-color: #ffffff;
 	border-color: #dddddd;
@@ -32,13 +40,15 @@ h1 {
 
 .navbar {
 	background-color: white;
-	font-height: 40px;
+	font-height: 1em;
 	width: 100%;
 	height: 60px;
 	box-sizing: border-box;
 	position: fixed;
 	top: 0;
-	border: 1px solid red;
+	display: block;
+	margin-bottom: 25%
+/*	border: 1px solid red; */
 }
 
 .logo {
@@ -51,7 +61,7 @@ h1 {
 	margin-left: 10%;
 	display: inline-block;
 	float: left;
-	border: 1px solid blue;
+/*	border: 1px solid blue; */
 }
 
 .smallnav {
@@ -64,7 +74,7 @@ h1 {
 	bottom: 60px;
 	font-size: 15px;
 	display: inline-block;
-	border: 1px solid green;
+/*	border: 1px solid green; */
 }
 
 .smallnav a {
@@ -97,9 +107,10 @@ h1 {
 }
 
 .page-header {
-	padding: 20px;
+	padding: 2.5%;
 	color: #4aaaa5;
 	background-color: white;
+/*	border: 1px solid red; */
 }
 
 
@@ -107,12 +118,13 @@ h1 {
 	clear: both;
 	box-sizing: border-box;
 	background-color: white;
-	width: 650px;
+	width: 50%;
 	float: left;
-	margin-top: 80px;
+	margin-top: 5%;
 	margin-bottom: 80px;
 	margin-left: 10%;
-	padding: 20px;
+	padding: 2.5%;
+	display: inline-block;
 
 }
 
@@ -124,6 +136,11 @@ h1 {
 	bottom: 70px;
 	width: 180px;
 	position: relative;
+}
+
+.body_content {
+	margin-top: 3%;
+/*	border: 1px solid red; */
 }
 
 /*.portfolio {
@@ -154,7 +171,10 @@ h1 {
 	bottom: 38px;
 	left: 500px;
 } */
-
+.aside {
+	display: inline-block;
+	padding: 2.5%;
+}
 
 
 .jeffimage {
@@ -174,18 +194,25 @@ h1 {
 }
 
 .maincontent h1 {
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
 .h_line {
-	width: 95%;
+	width: 100%;
 	height: 1px;
 	background: gray;
-	margin-left: 20px;
+	
 }
 
 .aside-icons .h_line {
-	width: 85%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.icon_box {
+	width: 100%;
+	display: block;
+	padding: 5%;
 }
 
 .portfolio-items-pictures {
@@ -196,24 +223,49 @@ h1 {
 }
 
 .aside-icons {
-	float: right;
-	padding: 20px;
+	float: left;
+	padding: 2.5%;
 	box-sizing: browser-box;
-	width: 270px;
+	width: 25%;
 	background-color: #fff;
-	margin: 40px;
-	margin-top: 80px;
+	margin-top: 5%;
+	margin-left: 5%;
+	display: inline-block;
+	margin-bottom: 5%;
 
 }
 
 .aside-icons h3 {
-	font-size: 20px;
+	font-size: 1.25em;
 }
 
 .aside-icons img {
-	width: 50px;
-	margin: 20px 20px;
-	float: left;
+	max-width: 100%;
+	height: auto;
+	margin-top: 10%;
+
+	margin-bottom: 10%
+
+}
+.github_icon {
+	width: 30%;
+	margin: 0 auto;
+
+	display: inline-block;
+}
+.linkedin_icon {
+	width: 30%;
+	margin: 0 auto;
+
+	display: inline-block;
+
+}
+
+.stack_icon {
+	width: 30%;
+
+	margin: 0 auto;
+	display: inline-block;
 }
 
 .fixed-footer {
@@ -312,7 +364,8 @@ h1 {
 	.navbar .logo {
 		margin-left: 10%;
 		display: inline-block;
-		font-size: 1em;
+		width: 25%;
+/*		font-size: 1em; */
 	}
 
 	.navbar .smallnav {
@@ -348,21 +401,28 @@ h1 {
 	}
 
 	.maincontent {
-		width: 70%;
-		margin-left: 15%;
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 0;
 
 	}
 
 	.jeffimage {
-		width: 90%;
+		width: 30%;
 	}
 
 	.maincontent ul {
-		margin-left: 100px;
+		margin-left: 40%;
+		display: block;
 	}
 
 	.aside-icons {
-		width: 30%;
+		width: 75%;
+		margin-left: 10%;
+		margin-bottom: 15%;
+	}
+	.icon_box {
+		margin-left: 10%;
 	}
 
 }
@@ -375,17 +435,20 @@ h1 {
 
 	.navbar .logo {
 		margin-left: 2%;
+	/*	font-size: 1.25em; */
+		width: 25%;
 	}
 
 	.navbar .smallnav {
-		width: 70%;
+		width: 50%;
 		margin-top: 0px;
-		margin-left: 500px;
-		float: left;
+/*		margin-left: 500px; */
+		float: right;
+		font-size: 1em;
 
 	}
 	.smallnav .about {
-		width: 10%;
+		width: 30%;
 		margin: 1.5%;
 		margin-left: 1.5%;
 		float: left;
@@ -393,7 +456,7 @@ h1 {
 	}	
 
 	.smallnav .portfolio {
-		width: 10%;
+		width: 30%;
 		margin: 1.5%;
 		margin-left: 1.5%;
 		float: left;
@@ -401,7 +464,7 @@ h1 {
 	}	
 
 	.smallnav .contact {
-		width: 10%;
+		width: 30%;
 		margin: 1.5%;
 		margin-left: 1.5%;
 		float: left;
@@ -413,7 +476,7 @@ h1 {
 		margin: 100px 5%;
 		margin-bottom: 20px;
 		margin-top: 80px;
-		margin-left: 2.5%;
+		margin-left: 5%;
 	}
 
 	.maincontent h1 {
@@ -422,15 +485,24 @@ h1 {
 	.aside-icons {
 		clear: both;
 		float: none;
-		width: 85%;
-		height: 140px;
+		width: 80%;
+/*		height: 140px; */
 		margin: 0 auto;
-		margin-left: 2.5%;
-		margin-bottom: 80px;
+		margin-left: 5%;
+		margin-bottom: 15%;
+		padding: 5%;
 	}
 
+
+
 	.aside-icons .h_line {
-		width: 90%;
+		width: 100%;
+	}
+
+	.icon_box {
+		padding-left: 15%;
+		padding-right: auto;
+		width: 100%;
 	}
 
 }
@@ -440,21 +512,24 @@ h1 {
 @media screen and (max-width: 640px) {
 	.navbar {
 		z-index: 100;
+		display: block;
 	}
 
 	.navbar .logo {
 		width: 100%;
 		margin-left: 0;
-		line-height: 30px;
-		font-size: 20px;
+		line-height: 1.5em;
+		font-size: 2em;
+		display: block;
 	}
 	
 	.navbar .smallnav {
-		margin-top: 50px;
+	/*	margin-top: ; */
 		width: 100%;
 		float: right;
 		background-color: #FFFFFF;
 		z-index: ;
+		display: block;
 	}
 
 	.smallnav .about {
@@ -484,7 +559,7 @@ h1 {
 
 	.maincontent {
 		width: 80%;
-		margin: 100px 10%;
+		margin: 10% 10%;
 		margin-bottom: 20px;
 		margin-top: 160px;
 	}
@@ -496,12 +571,19 @@ h1 {
 	.aside-icons {
 		clear: both;
 		float: none;
-		width: inherit;
-		height: 140px;
-		margin-top: 100px;
+		width: 70%;
+		height: ;
+		margin-top: 5%;
 		margin-left: 10%;
-		margin-right: 10%;
-		margin-bottom: 100px;
+		margin-right: 0;
+		margin-bottom: 15%;
+		padding: 5%;
+	}
+
+
+
+	.aside {
+		margin-bottom: 10%
 	}
 
 	.aside-icons .h_line {
@@ -509,7 +591,7 @@ h1 {
 	}
 	
 	.jeffimage {
-		width: 80%;
+		width: 30%;
 		align: center;
 		margin: 2em 10%;
 	}
