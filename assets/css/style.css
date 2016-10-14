@@ -132,10 +132,11 @@ h1 {
 	color: white;
 	background-color: #4aaaa5;
 	text-align: center;
-	padding: 10px;
-	bottom: 70px;
-	width: 180px;
+	padding: 5%;
+	bottom: 25%;
+	width: 90%;
 	position: relative;
+/*	border: 1px solid red; */
 }
 
 .body_content {
@@ -155,7 +156,7 @@ h1 {
 	bottom: 50px;
 }*/
 
-.portfolio-right {
+/*.portfolio-right {
 	position: relative;
 	left: 230px;
 	display: inline;
@@ -165,7 +166,7 @@ h1 {
 .portfolio-new-line {
 	clear: both;
 }
-
+*/
 /* .about {
 	position: relative;
 	bottom: 38px;
@@ -216,10 +217,9 @@ h1 {
 }
 
 .portfolio-items-pictures {
-	margin: 40px;
+	margin: 5%;
 	overflow: auto;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 5%;
 }
 
 .aside-icons {
@@ -309,7 +309,7 @@ h1 {
 	font-size:15px;
 	padding: 10px 20px 10px 20px;
 }
-
+/*
 .portfolio-a {
 	float: left;
 	margin: auto;
@@ -341,12 +341,30 @@ h1 {
 	float: right;
 	margin-left: 40px;
 }
+*/
+.p-item {
+	float: left;
+	display: inline-block;
+	padding: 5%;
+	width: 40%;
+/*	max-width: 35%;
+	height: auto; */
+}
+
+.p-item img {
+	max-width: 100%;
+	height: auto;
+}
 .about {
 	border-right: 1px solid gray;
 }
 
 .portfolio {
 	border-right: 1px solid gray;
+}
+
+.maincontent ul.portfolio-items-pictures {
+	margin-left: 2.5%;
 }
 /* 
   =====================================
@@ -626,7 +644,13 @@ h1 {
 	}
 
 	.portfolio-inset {
-		width: 93.5%;
-		margin: 0;
+/*		width: 93.5%;
+		margin: 0; */
+
+	}
+
+	.p-item {
+		width: 85%;
+		margin-left: 0%;
 	}
 }
