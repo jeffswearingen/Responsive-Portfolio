@@ -38,6 +38,7 @@ h1 {
 	box-sizing: border-box;
 	position: fixed;
 	top: 0;
+	border: 1px solid red;
 }
 
 .logo {
@@ -46,41 +47,53 @@ h1 {
 	padding: 20px;
 	text-align: center;
 	font-size: 20px;
-	width: 150px;
-	margin-left: 120px;
+	width: 15%;
+	margin-left: 10%;
+	display: inline-block;
+	float: left;
+	border: 1px solid blue;
 }
 
 .smallnav {
 	box-sizing: border-box;
-	width: 310px;
+	width: 35%;
 	height: 60px;
-	margin-left: 830px;
+/*	margin-left: 830px; */
 	padding: 20px;
-	position: relative;
+	float: right;
 	bottom: 60px;
 	font-size: 15px;
+	display: inline-block;
+	border: 1px solid green;
 }
 
 .smallnav a {
 	text-decoration: none;
+
 }
 
 .smallnav .about {
 	width: 30%;
 	margin: 1.5%;
 	float: left;
+	display: inline-block;
+	text-align: center;
 }
 
 .smallnav .portfolio {
 	width: 30%;
 	margin: 1.5%;
 	float: left;
+	display: inline-block;
+	text-align: center;
 }
 
 .smallnav .contact {
 	width: 30%;
 	margin: 1.5%;
 	float: left;
+	display: inline-block;
+	text-align: center;
 }
 
 .page-header {
@@ -98,7 +111,7 @@ h1 {
 	float: left;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	margin-left: 120px;
+	margin-left: 10%;
 	padding: 20px;
 
 }
@@ -276,7 +289,13 @@ h1 {
 	float: right;
 	margin-left: 40px;
 }
+.about {
+	border-right: 1px solid gray;
+}
 
+.portfolio {
+	border-right: 1px solid gray;
+}
 /* 
   =====================================
   Media Queries
@@ -291,18 +310,21 @@ h1 {
 	}
 
 	.navbar .logo {
-		margin-left: 2%;
+		margin-left: 10%;
+		display: inline-block;
+		font-size: 1em;
 	}
 
 	.navbar .smallnav {
-		width: 70%;
+		width: 45%;
 		margin-top: 0px;
-		margin-left: 650px;
-		float: left;
+/*		margin-left: ; */
+		float: right;
+		display: inline-block;
 
 	}
 	.smallnav .about {
-		width: 10%;
+		width: 30%;
 		margin: 1.5%;
 		margin-left: 1.5%;
 		float: left;
@@ -310,7 +332,7 @@ h1 {
 	}	
 
 	.smallnav .portfolio {
-		width: 10%;
+		width: 30%;
 		margin: 1.5%;
 		margin-left: 1.5%;
 		float: left;
@@ -318,7 +340,7 @@ h1 {
 	}	
 
 	.smallnav .contact {
-		width: 10%;
+		width: 30%;
 		margin: 1.5%;
 		margin-left: 1.5%;
 		float: left;
@@ -326,7 +348,7 @@ h1 {
 	}
 
 	.maincontent {
-		width: 40%;
+		width: 70%;
 		margin-left: 15%;
 
 	}
